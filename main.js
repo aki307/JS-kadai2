@@ -22,8 +22,8 @@ function calNum(fizzValue, buzzValue) {
 button.addEventListener('click', () => {
   displayNumber = '';
   textbox_element.innerHTML = "";
-  let fizzValue = fizz.value;
-  let buzzValue = buzz.value;
+  const fizzValue = fizz.value;
+  const buzzValue = buzz.value;
   let valiFizz = isNaN(fizzValue);
   let valiBuzz = isNaN(buzzValue);
   if (valiFizz || valiBuzz) {
